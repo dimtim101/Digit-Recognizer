@@ -1,4 +1,4 @@
-# Digit reconginzer
+# Digit recoginzer
 
 Implemented a 2 layer NN for digit recognition of MNIST Database
 
