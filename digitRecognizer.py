@@ -96,7 +96,7 @@ def test(nn):
         TP = conmat[label][label] 
         FP = conmat[:,label].sum() - TP
         FN = conmat[label].sum() - TP
-        TN = conmat.sum() - TP - FN
+        TN = conmat.sum() - TP - FN - FP
 
         print '\nClass:', label
         print 'TP',TP
